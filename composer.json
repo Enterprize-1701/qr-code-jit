@@ -1,5 +1,5 @@
 {
-    "name": "endroid/qr-code",
+    "name": "enterprize1701/qr-code",
     "description": "Endroid QR Code",
     "keywords": ["endroid", "qrcode", "qr", "code", "php"],
     "homepage": "https://github.com/endroid/qr-code",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "bacon/bacon-qr-code": "^2.0.5"
+        "enterprize1701/bacon-qr-code": "dev-master"
     },
     "require-dev": {
         "ext-gd": "*",
@@ -53,5 +53,11 @@
         "branch-alias": {
             "dev-master": "4.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Enterprize-1701/BaconQrCodeFixed.git"
+        }
+    ]
 }
